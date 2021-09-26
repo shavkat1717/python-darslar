@@ -34,7 +34,7 @@ python_izohli_lugati = {
     'tuple':"O'zgarmas ro'yxat"}
 # print(python_izohli_lugati['tuple'])
 
-kalit = input("Kalit so'z kiriting:").lower()
+kalit = input("Python kalit so'z (key words) kiriting: \t => ").lower()
 print(python_izohli_lugati.get(kalit,"Bunday so'z mavjud emas"))
 
 kalit = input("Kalit so'z kiriting:").lower()
